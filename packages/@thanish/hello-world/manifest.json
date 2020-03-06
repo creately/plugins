@@ -1,4 +1,7 @@
 {
     "name": "@thanish/hello-world",
-    "main": "https://plugins.creately.com/thanish/hello-world/main.html"
+    "title": "Hello World",
+    "description": "An example plugin with minimal features",
+    "main": "https://plugins.creately.com/thanish/hello-world/main.html",
+    "icon": "https://plugins.creately.com/thanish/hello-world/icon.png"
 }
