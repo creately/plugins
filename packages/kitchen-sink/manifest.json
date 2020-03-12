@@ -1,9 +1,9 @@
 {
-    "name": "@thanish/kitchen-sink",
+    "name": "kitchen-sink",
     "title": "Kitchen Sink",
     "description": "An example plugin with all available features",
-    "main": "https://plugins.creately.com/thanish/kitchen-sink/main.html",
-    "icon": "https://plugins.creately.com/thanish/kitchen-sink/icon.png",
+    "main": "https://kitchen-sink.creately.dev",
+    "icon": "https://kitchen-sink.creately.dev/icon.png",
     "panels": {
         "left": [
             {
@@ -11,8 +11,8 @@
             },
             {
                 "title": "Kitchen Sink - Left",
-                "page": "https://plugins.creately.com/thanish/kitchen-sink/left.html",
-                "icon": "https://plugins.creately.com/thanish/kitchen-sink/icon-l1.png"
+                "main": "https://kitchen-sink.creately.dev/page-left.html",
+                "icon": "https://kitchen-sink.creately.dev/icon-left.png"
             }
         ]
     },
