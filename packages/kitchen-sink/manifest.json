@@ -7,7 +7,7 @@
     "panels": {
         "left": [
             {
-                "page": "$main"
+                "main": "$main"
             },
             {
                 "title": "Kitchen Sink - Left",
