@@ -19,7 +19,7 @@
     "export": [
         {
             "name": "export-as-pdf",
-            "title": { "en": "Export as PDF" }
+            "title": "Export as PDF"
         }
     ]
 }
