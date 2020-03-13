@@ -1,0 +1,13 @@
+{
+    "name": "get-gravatar",
+    "title": "Get Gravatar",
+    "description": "A module to get a user's gravatar image and profile.",
+    "main": "https://get-gravatar.creately.dev",
+    "icon": "https://get-gravatar.creately.dev/icon.png",
+    "panels": {
+        "main": {
+            "primary": true,
+            "position": "left"
+        }
+    }
+}
