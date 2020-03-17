@@ -1,0 +1,25 @@
+{
+  "name": "get-gravatar",
+  "version": "1.0.0",
+  "description": "A module to get a user's gravatar image and profile.",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "prebuild": "rm -rf public",
+    "build": "parcel build -d public src/index.html"
+  },
+  "keywords": [],
+  "author": "Thanish Nizam <mnmtanish@gmail.com> (https://thanish.me/)",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-svelte": "^4.0.6",
+    "svelte": "^3.19.2"
+  },
+  "dependencies": {
+    "gravatar-url": "^3.1.0"
+  },
+  "browserslist": [
+    "last 1 chrome versions"
+  ]
+}
