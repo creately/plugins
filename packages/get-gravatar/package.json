@@ -6,7 +6,8 @@
   "scripts": {
     "serve": "parcel src/index.html",
     "prebuild": "rm -rf public",
-    "build": "parcel build -d public src/index.html"
+    "build": "parcel build -d public src/index.html",
+    "postbuild": "cp -r manifest.json icon.svg public/"
   },
   "keywords": [],
   "author": "Thanish Nizam <mnmtanish@gmail.com> (https://thanish.me/)",
