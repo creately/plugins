@@ -20,6 +20,10 @@
     const emails = value.split(",").map(s => s.trim());
     images = emails.map(email => gravatarUrl(email, { size: 240 }));
   }
+
+  function handleImageClick() {
+    // ...
+  }
 </script>
 
 <style>
@@ -72,9 +76,11 @@
   #info img {
     display: inline-block;
     width: 240px;
-    height: 240px;
+    max-width: 100%;
+    height: auto;
     box-sizing: border-box;
     border: dashed 1px #aaa;
+    cursor: pointer;
   }
 </style>
 
@@ -90,6 +96,6 @@
 
 <div id="info">
   {#each images as image}
-    <img src={image} alt="" />
+    <img on:click={handleImageClick} src={image} alt="" />
   {/each}
 </div>
