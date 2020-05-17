@@ -1,0 +1,12 @@
+{
+    "title": "Video Conference",
+    "description": "A module start a Jitsi conference inside Creately",
+    "main": "http://localhost/plugins/vidcall",
+    "icon": "http://localhost/plugins/vidcall/icon.svg",
+    "panels": {
+        "main": {
+            "primary": true,
+            "position": "left"
+        }
+    }
+}
