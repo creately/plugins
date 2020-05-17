@@ -1,0 +1,42 @@
+{
+  "name": "video-calls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "prebuild": "rm -rf public",
+    "build": "parcel build -d public src/index.html",
+    "postbuild": "cp -r manifest.json icon.svg public/",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.150",
+    "@types/react": "^16.9.34",
+    "jquery": "^3.5.1",
+    "lodash": "^4.17.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rxjs": "^6.5.5",
+    "strophe.js": "1.3.4",
+    "strophejs-plugin-caps": "1.1.0",
+    "strophejs-plugin-disco": "0.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@types/jquery": "^3.3.38",
+    "babel-loader": "^8.1.0",
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
+}

@@ -2,6 +2,7 @@ public
 dist
 node_modules
 .vscode
+.storybook
 .cache
 .env
 
